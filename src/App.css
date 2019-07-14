@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +19,32 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@font-face {
+  font-family: "Johnston100-Light";
+    src: url('./fonts/Johnston100W03-Light.eot'); 
+    src: url('./fonts/Johnston100W03-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Light.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Light.woff') format('woff'),
+         url('./fonts/Johnston100W03-Light.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Light.svg') format('svg');
+}
+@font-face {
+  font-family: "Johnston100-Regular";
+    src: url('./fonts/Johnston100W03-Regular.eot'); 
+    src: url('./fonts/Johnston100W03-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Regular.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Regular.woff') format('woff'),
+         url('./fonts/Johnston100W03-Regular.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Regular.svg') format('svg');
+}
+@font-face {
+  font-family: "Johnston100-Medium";
+    src: url('./fonts/Johnston100W03-Medium.eot'); 
+    src: url('./fonts/Johnston100W03-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Johnston100W03-Medium.woff2') format('woff2'),
+         url('./fonts/Johnston100W03-Medium.woff') format('woff'),
+         url('./fonts/Johnston100W03-Medium.ttf')  format('truetype'),
+         url('./fonts/Johnston100W03-Medium.svg') format('svg');
 }
