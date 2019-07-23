@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css'
 
-const Roundel: React.FC = () => {
-    let text: string = "hello".toLocaleUpperCase()
+interface Input{
+    text:string,
+}
+
+const Roundel: React.FC<Input> = (props) => {
+    let text = props.text.toLocaleUpperCase()
     
-    let fontSize = 31.965 + (87.93102 - 31.0065)/(1 + Math.pow((text.length/10.50075),5.24337))
+    let fontSize = 31.965 + (87.93102 - 31.0065)/(1 + Math.pow((text.length/11.50075),5.24337))
     let roundelColour = "#E32017"
 
     return (
