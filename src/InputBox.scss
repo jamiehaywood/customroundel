@@ -1,0 +1,23 @@
+.textBox {
+  font-family: "Johnston100-Regular";
+  border-radius: 4px;
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  color: 40px;
+  background-color: white;
+  font-size:20px;
+  padding-left: 10px;
+}
+
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+
+.textBox::placeholder {
+  font-family: "Johnston100-Light";
+  font-size: 20px;
+}
