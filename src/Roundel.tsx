@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css'
 
-interface Input{
-    text:string,
+interface Input {
+    text: string,
+    roundelColour: string
 }
 
 const Roundel: React.FC<Input> = (props) => {
-    let text = props.text.toLocaleUpperCase()
-    
-    let fontSize = 31.965 + (87.93102 - 31.0065)/(1 + Math.pow((text.length/11.50075),5.24337))
-    let roundelColour = "#E32017"
+    let text = props.text.toLocaleUpperCase();
+    let fontSize = 7.882566 + (81.4836881 - 7.882566) / (1 + Math.pow((text.length/17.16642), 2.26065))
+    let roundelColour = props.roundelColour
 
     return (
         <svg
