@@ -7,6 +7,9 @@ import InputBox from './InputBox';
 
 const App: React.FC = () => {
   const [input, setInput] = useState("");
+  const colorsArray = [
+    "#773DBC", "#F8BA16", "#A8388A", "#16A4A7", "#EC7C1B", "#1999D3", "#7E8ABE", "#83B821", "#E11B1E"
+  ]
   return (
     <div>
       <div className="roundel">
