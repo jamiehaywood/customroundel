@@ -1,26 +1,30 @@
 import React from 'react'
 import './ColorBox.scss'
 
-interface Props{
-    setRoundelColour:Function,
-    colour:string,
+interface Props {
+    setRoundelColour: Function,
+    colour: string,
 }
 
 const ColorBox: React.FC<Props> = (props) => {
     const colour = props.colour
+
     const divStyle = {
-        width: 30,
-        height: 30,
+        width: 40,
+        height: 40,
         background: colour,
-        borderStyle:"solid",
-        borderWidth: 2,
-        borderColor: "#22292F",
+        borderStyle: "solid",
+        borderWidth: 1,
+        borderColor: "#707070",
         borderRadius: 5,
-        display: "flex",
+        padding: 5,
         cursor: "pointer"
     }
+
     return (
-        <button style={divStyle} onClick={() => props.setRoundelColour(colour)}></button>
+        <div className="box">
+            <button style={divStyle} onClick={() => props.setRoundelColour(colour)}></button>
+        </div>
     )
 }
 

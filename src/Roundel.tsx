@@ -8,13 +8,13 @@ interface Input {
 
 const Roundel: React.FC<Input> = (props) => {
     let text = props.text.toLocaleUpperCase();
-    let fontSize = 7.882566 + (81.4836881 - 7.882566) / (1 + Math.pow((text.length/17.16642), 2.26065))
+    let fontSize = 7.882566 + (81.4836881 - 7.882566) / (1 + Math.pow((text.length / 17.16642), 2.26065))
     let roundelColour = props.roundelColour
 
     return (
         <svg
-            width="500"
-            height="400"
+            width="500px"
+            height="400px"
             id="svg2158">
             <g
                 transform="translate(-125,-332.36247)"
@@ -39,7 +39,7 @@ const Roundel: React.FC<Input> = (props) => {
                 />
             </g>
             <text x="50%" y="199px" fill="white" fontSize={fontSize} fontFamily="Johnston100-Medium" alignmentBaseline='central' textAnchor="middle">{text}</text>
-        </svg >
+        </svg>
     );
 }
 
