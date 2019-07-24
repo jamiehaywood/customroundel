@@ -20,6 +20,7 @@ const App: React.FC = () => {
       <div>
         <InputBox input={input} setInput={setInput}/>
       </div>
+      <div style={{display: "flex"}}>{colourBox}</div>
     </div>
   );
 }
