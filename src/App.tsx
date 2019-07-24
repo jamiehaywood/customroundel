@@ -16,7 +16,7 @@ const App: React.FC = () => {
   return (
     <div>
       <div className="roundel">
-        <Roundel text={input}/>
+        <Roundel text={input} roundelColour={roundelColour} />
       </div>
       <div>
         <InputBox input={input} setInput={setInput}/>
