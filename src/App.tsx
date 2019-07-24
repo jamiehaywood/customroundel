@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Roundel from './Roundel';
 import InputBox from './InputBox';
-
-
+import ColorBox from './ColorBox'
 
 const App: React.FC = () => {
   const [input, setInput] = useState("");
