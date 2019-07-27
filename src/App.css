@@ -17,14 +17,19 @@ html, body {
 }
 
 .colourBoxStyling{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  display: flex;
+  margin: 0;
+  list-style: none;
   justify-content: center;
-  padding: 30px 0px 0px 0px;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
-
 
 /* CROSS COMPATABILITY FONTS */
 @font-face {
