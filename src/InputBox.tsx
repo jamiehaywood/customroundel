@@ -8,7 +8,7 @@ interface Input {
 
 const InputBox: React.FC<Input> = props => {
     return (
-        <input type="text" maxLength={25} className="textBox" placeholder="Your text here" value={props.input} onChange={e => props.setInput(e.target.value)}>
+        <input type="text" maxLength={25} className="textBox" placeholder="Your custom roundel text here" value={props.input} onChange={e => props.setInput(e.target.value)}>
         </input>
     );
 }
