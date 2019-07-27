@@ -1,10 +1,14 @@
-.roundelStyling {
-  text-align: center;
-  padding: 30px 0px 30px 0px;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-svg:not(:root){
-  overflow: visible;
+.roundelStyling {
+  align-self: center;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding: 20px;
 }
 
 .textBoxStyling{
