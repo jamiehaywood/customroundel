@@ -11,15 +11,15 @@ const App: React.FC = () => {
 
   const colorsArray =
     [
-      "#773DBC",
-      "#F8BA16",
-      "#A8388A",
-      "#16A4A7",
+      "#E11B1E",
       "#EC7C1B",
-      "#1999D3",
+      "#F8BA16",
+      "#773DBC",
+      "#A8388A",
       "#7E8ABE",
+      "#1999D3",
+      "#16A4A7",
       "#83B821",
-      "#E11B1E"
     ]
 
   const colourBox = colorsArray.map(x => <ColorBox colour={x} setRoundelColour={setRoundelColour} />)
