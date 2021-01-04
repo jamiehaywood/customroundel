@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b642e74d6f1d8997cd9a842769fbe8bd",
+    "revision": "c1d4eaade2d9507351ad7004385728aa",
     "url": "/customroundel/index.html"
   },
   {
-    "revision": "7b1a9f8b963ac7fff49a",
-    "url": "/customroundel/static/css/main.2422ba18.chunk.css"
+    "revision": "5a0aedca13ffa41ac497",
+    "url": "/customroundel/static/css/main.f47f5b6f.chunk.css"
   },
   {
-    "revision": "8568f50f7ceb80227548",
-    "url": "/customroundel/static/js/2.d42b6f0b.chunk.js"
+    "revision": "f18c17e92946845cb718",
+    "url": "/customroundel/static/js/2.6e788638.chunk.js"
   },
   {
-    "revision": "7b1a9f8b963ac7fff49a",
-    "url": "/customroundel/static/js/main.35495b16.chunk.js"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/customroundel/static/js/2.6e788638.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3440d5b791f1879ba5e",
-    "url": "/customroundel/static/js/runtime~main.f7dbaff5.js"
+    "revision": "5a0aedca13ffa41ac497",
+    "url": "/customroundel/static/js/main.071c66fb.chunk.js"
+  },
+  {
+    "revision": "c88ea35eba973d117363",
+    "url": "/customroundel/static/js/runtime-main.fa24037e.js"
   },
   {
     "revision": "470c2dfbeaa74eeda70b383db6cc2aa1",
